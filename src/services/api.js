@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 // Configuración base de la API
-const API_BASE_URL = 'http://localhost:8080'; // Puerto por defecto de Spring Boot
+const API_BASE_URL = 'https://deployspringboot-production.up.railway.app';// Puerto por defecto de Spring Boot
 
 // Crear instancia de axios con configuracion base
 const api = axios.create({
